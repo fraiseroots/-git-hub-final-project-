@@ -12,7 +12,11 @@
 # p, principal amount
 # t, time period in years
 # r, annual rate of interest
-
+def compuond_interest (p,t,r)
+    return p * (pow((1+r/100),t))
+    
+    
+    if_name_==main_":
 # Output:
 # simple interest = p*t*r
 
